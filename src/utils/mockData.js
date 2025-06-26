@@ -1,14 +1,14 @@
 export const mockData = [
   {
     id: 1,
-    url: "https://github.com",
-    title: "GitHub",
-    savedAt: new Date().toISOString(),
+    title: "React Documentation",
+    url: "https://reactjs.org/docs",
+    timestamp: new Date().toISOString(),
   },
   {
     id: 2,
-    url: "https://stackoverflow.com",
-    title: "Stack Overflow",
-    savedAt: new Date().toISOString(),
+    title: "JavaScript MDN",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    timestamp: new Date().toISOString(),
   },
 ];
