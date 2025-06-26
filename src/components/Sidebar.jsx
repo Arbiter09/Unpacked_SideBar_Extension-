@@ -1,6 +1,7 @@
 import React from 'react'
+import {tabs} from '../utils/constants'
 
-const Sidebar = () => {
+const Sidebar = ({activeTab,setActiveTab}) => {
   return (
     <div className="w-16 bg-white border-r border-gray-200 flex flex-col">
         {tabs.map((tab) => {
