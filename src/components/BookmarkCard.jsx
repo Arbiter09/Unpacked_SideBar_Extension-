@@ -39,15 +39,13 @@ const BookmarkCard = ({ bookmark, onRemove, onViewUnpacked }) => {
           </a>
 
           {bookmark.unpackedUrl && (
-            <a
-              href={bookmark.unpackedUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => onViewUnpacked(bookmark)}
               className="w-full min-w-0 bg-green-50 hover:bg-green-100 border border-green-200 text-green-700 hover:text-green-800 text-xs py-2 px-2 rounded-md flex items-center justify-center gap-1 transition-colors"
             >
               <Eye size={12} className="flex-shrink-0" />
               <span className="truncate">View Unpacked</span>
-            </a>
+            </button>
           )}
         </div>
       </div>

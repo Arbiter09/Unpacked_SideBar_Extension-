@@ -8,7 +8,7 @@ export const mockUrlMapping = {
       unpackedUrl:
         "https://unpacked.so/link/0c7fb34a-0ab7-4823-b84b-22b5ae875814",
     },
-  "https://www.engadget.com/mobile/apple-released-ios-26-beta-2-heres-everything-you-need-to-know-about-the-iphone-operating-system-135749886.html":
+  "https://www.engadget.com/mobile/apple-ios-26-here-are-all-the-new-features-and-improvements-for-the-new-iphone-operating-system-135749944.html":
     {
       metadataId: "4353464b-bddb-4c93-859e-e3c303132f55",
       unpackedUrl:
